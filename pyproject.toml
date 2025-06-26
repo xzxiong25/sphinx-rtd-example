@@ -1,0 +1,19 @@
+[project]
+name = "sphinx-rtd-example"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "Xiangzhen Xiong", email = "xiangzhen.xiong@motphys.com"},
+]
+dependencies = []
+requires-python = "==3.10.*"
+readme = "README.md"
+license = {text = "MIT"}
+
+
+[tool.pdm]
+distribution = false
+
+
+[project.optional-dependencies]
+docs = ["sphinx", "sphinx-rtd-theme", "autodocsumm"]
